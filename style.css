@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cadetblue;
+    max-height: 100px;
+    /* min-height: 200px; */
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px ;
+}
+
+.menu ul li{
+    /* text-decoration: none; */
+    list-style: none;
+}
