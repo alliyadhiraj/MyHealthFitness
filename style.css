@@ -29,6 +29,13 @@ body {
   transition: 1s ease-in-out;
 }
 
+.logo img{
+  height: 80px;
+  width: 180px;
+  margin-top: 20px;
+  
+}
+
 .sticky-header {
   position: -webkit-sticky;
   position: sticky;
