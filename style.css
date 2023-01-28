@@ -364,3 +364,53 @@ body {
 
 }
 
+/* Blog */
+
+
+.showcase-content img{
+  height: 300px;
+  width: 800px;
+  margin-top: 100px;
+  margin-left: 300px;
+}
+
+.showcase-content img:hover{
+  padding: 20px;
+}
+
+.blog h1{
+  margin-top: 80px;
+  font-size: 50px;
+}
+
+.blog p{
+  font-size: 20px;
+}
+
+.top-headlines{
+  text-align:center;
+  color: azure;
+
+}
+
+.fa-brands i{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+button{
+  margin-left: 30px;
+  background-color: #3657dd;
+  color: azure;
+  padding: 10px 10px;
+}
+
+button:hover{
+    cursor: pointer;
+    padding-right: 20px;
+    
+}
+
