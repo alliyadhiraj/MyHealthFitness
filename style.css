@@ -33,6 +33,7 @@ body {
   height: 80px;
   width: 180px;
   margin-top: 20px;
+  background: transparent;
   
 }
 
@@ -112,6 +113,11 @@ body {
 
 .swiper-slide img {
   width: 100%;
+
+}
+
+.swiper-slide .club{
+  color:rgb(228, 81, 81);
 }
 
 /* .location a:visited,.getApp{
@@ -273,7 +279,7 @@ body {
 }
 
 .yoga {
-  background-image: url("image/yoga.jpg");
+  background-image: url("image/yoga1.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -283,33 +289,33 @@ body {
   background-position: bottom center;
 }
 .workout {
-  background-image: url("image/workout.jpg");
+  background-image: url("image/workout1.jpg");
   background-size: cover;
   background-position: center center;
 }
 .dancing {
-  background-image: url("image/dancing.jpg");
+  background-image: url("image/dance.jpg");
   background-size: cover;
   background-position: bottom center;
 }
 .boxing {
-  background-image: url("image/boxing.jpg");
+  background-image: url("image/boxing1.jpg");
   background-size: cover;
   background-position: center center;
 }
 .meditation {
-  background-image: url("image/meditation.jpg");
+  background-image: url("image/meditation1.jpg");
   background-size: cover;
   background-position: bottom center;
 }
 .cardio {
-  background-image: url("image/cardio.jpg");
+  background-image: url("image/cardio1.jpg");
   background-size: cover;
   background-position: center center;
 }
 .pilates {
   background-image: url("image/pilates.jpg");
-  background-size: cover;
+  background-size:contain;
   background-position: center center;
 }
 
