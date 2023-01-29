@@ -393,24 +393,104 @@ body {
 
 }
 
-.fa-brands i{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.social{
+  height: 10vh;
+  font-size: 30px;
+  margin-top: 10px;
+  
+  
+  /* justify-content: center; */
+  /* align-items: center; */
   text-align: center;
+  gap: 40px;
+  color: rgb(41, 237, 237);
   
 }
-button{
-  margin-left: 30px;
-  background-color: #3657dd;
-  color: azure;
-  padding: 10px 10px;
+
+.social ul {
+  display: flex;
+  text-align:center;
+  justify-content:center;
+  align-items: center;
+  /* flex-direction: column; */
+  gap: 30px;
+ 
 }
 
-button:hover{
-    cursor: pointer;
-    padding-right: 20px;
-    
+.social ul li{
+  list-style: none;
+  
+
 }
+
+.social ul li a:hover{
+  color: azure;
+  cursor: pointer;
+}
+.trainers{
+  width: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  row-gap: 50px;
+}
+
+.training{
+  width: 30%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  
+  /* background-color: aqua; */
+
+}
+
+.trainer-details{
+  height: 100px;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.456);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  visibility: hidden;
+}
+
+.trainer-details button{
+  padding: 5px;
+}
+
+.alex{
+  background-image: url("./image/trainer1.jpg");
+  background-size: cover;
+}
+
+.parth{
+  background-image: url("./image/trainer2.jpg");
+  background-size: cover;
+}
+
+.liza{
+  background-image: url("./image/trainer3.jpg");
+  background-size: cover;
+}
+
+.prisha{
+  background-image: url("./image/trainer4.jpg");
+  background-size: cover;
+}
+
+.gen{
+  background-image: url("./image/trainer5.jpg");
+  background-size: cover;
+}
+
+.olive{
+  background-image: url("./image/trainer6.jpg");
+  background-size: cover;
+}
+
 

@@ -43,3 +43,25 @@ for (let i = 0; i <= overlay.length - 1; i++) {
     e.target.parentNode.children[3].style.visibility = "hidden";
   });
 }
+
+// trainer section
+
+let trainer = document.querySelectorAll(".trainers");
+
+for (let i = 0; i <= trainer.length - 1; i++) {
+//   //visible event.
+  trainer[i].addEventListener("mouseover", (e) => {
+    // console.log(e.target.children)
+    e.target.children[i].style.visibility = "visible";
+
+  //   e.target.parentNode.children[3].addEventListener("mouseover", () => {
+  //     e.target.parentNode.children[3].style.visibility = "visible";
+  //   });
+  });
+
+  //Hide event.
+  trainer[i].addEventListener("mouseout", (e) => {
+    e.target.children[i].style.visibility = "hidden";
+  
+});
+}
