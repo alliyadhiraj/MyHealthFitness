@@ -68,7 +68,15 @@ body {
 .menu ul a {
   color:#171a26;
   text-decoration: none;
+ 
 }
+
+/* .menu ul li a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
 
 .location {
   display: flex;
